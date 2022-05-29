@@ -1,0 +1,6 @@
+node_modules
+dist
+jest-coverage
+.DS_Store
+webpack-profile.json
+webpack-profile.html
