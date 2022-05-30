@@ -7,7 +7,7 @@
     "private": true,
     "scripts": {
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build",
+        "deploy": "gh-pages -d dist",
         "build": "webpack --env prod --config webpack.config.js",
         "start": "webpack serve --env local --config webpack-dev-server.config.js"
     },
