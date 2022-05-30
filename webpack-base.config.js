@@ -26,7 +26,7 @@ const getWebpackConfig = (extraConfig = {}) => {
             entry: resolve(__dirname, "src", "index.js"),
             output: {
                 path: resolve(__dirname, "dist"),
-                publicPath: isLocal ? "/" : "/",
+                publicPath: isLocal ? "/" : "/Dansii",
                 filename: isLocal
                     ? "[name].[hash].js"
                     : "[name].[contenthash].js",
