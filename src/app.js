@@ -11,11 +11,11 @@ export const App = () => {
     return (
         <>
             <Switch>
-                <Route path={'/reservation-system-kaj/sign-in'} exact={true} component={SignInForm}>
+                <Route path={'/sign-in'} exact={true} component={SignInForm}>
                 </Route>
-                <Route path={'/reservation-system-kaj/sign-up'} component={SignUpForm}>
+                <Route path={'/sign-up'} component={SignUpForm}>
                 </Route>
-                <Route path={'/reservation-system-kaj/dashboard'} exact={true} component={Dashboard}>
+                <Route path={'/dashboard'} exact={true} component={Dashboard}>
                 </Route>
             </Switch>
             <HistoryGate history={history} />
