@@ -7,9 +7,11 @@ const applicationRootRef = document.getElementById("applicationRoot");
 
 if (applicationRootRef) {
     ReactDOM.render(
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>,
+        <React.StrictMode>
+            <HashRouter>
+                <App />
+            </HashRouter>
+        </React.StrictMode>,
         applicationRootRef,
     );
 }
