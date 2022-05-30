@@ -7,7 +7,7 @@ const applicationRootRef = document.getElementById("applicationRoot");
 
 if (applicationRootRef) {
     ReactDOM.render(
-        <HashRouter basename={"/reservation-system-kaj"}>
+        <HashRouter>
             <App />
         </HashRouter>,
         applicationRootRef,
