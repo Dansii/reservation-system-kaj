@@ -11,7 +11,7 @@ export const App = () => {
     return (
         <>
             <Switch>
-                <Route path={'/reservation-system-kaj/sign-in'} exact={true}>
+                <Route path={'reservation-system-kaj/sign-in'} exact={true}>
                     <SignInForm/>
                 </Route>
                 <Route path={'/reservation-system-kaj/sign-up'}>
