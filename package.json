@@ -1,10 +1,13 @@
 {
     "name": "reservation-system-ds",
     "version": "1.0.0",
+    "homepage": "https://dansii.github.io/reservation-system-kaj/",
     "description": "",
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "build": "webpack --env prod --config webpack.config.js",
         "start": "webpack serve --env local --config webpack-dev-server.config.js"
     },
@@ -32,6 +35,7 @@
         "babel-loader": "^8.2.2",
         "babel-plugin-styled-components": "^1.13.2",
         "clean-webpack-plugin": "^4.0.0",
+        "gh-pages": "^4.0.0",
         "git-rev-sync": "^3.0.1",
         "html-webpack-plugin": "^5.2.0",
         "terser-webpack-plugin": "^5.1.1",
