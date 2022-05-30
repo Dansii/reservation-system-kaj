@@ -11,13 +11,13 @@ export const App = () => {
     return (
         <>
             <Switch>
-                <Route path={'/sign-in'} exact={true}>
+                <Route path={'/reservation-system-kaj/sign-in'} exact={true}>
                     <SignInForm/>
                 </Route>
-                <Route path={'/sign-up'}>
+                <Route path={'/reservation-system-kaj/sign-up'}>
                     <SignUpForm/>
                 </Route>
-                <Route path={'/dashboard'} exact={true}>
+                <Route path={'/reservation-system-kaj/dashboard'} exact={true}>
                     <Dashboard/>
                 </Route>
             </Switch>
